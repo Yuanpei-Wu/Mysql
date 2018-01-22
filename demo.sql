@@ -31,6 +31,8 @@ CREATE TABLE `configure` (
   `enable` int(11) DEFAULT NULL,
   `minvalue` int(11) DEFAULT NULL,
   `maxvalue` int(11) DEFAULT NULL,
+  `parameter` double DEFAULT NULL,
+  `bias` double DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
